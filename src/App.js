@@ -7,9 +7,9 @@ import Landing from './pages/Landing'
 export default class App extends React.Component {
   render() {
     return (
-      <HashRouter>
+      <BrowserRouter>
         <Route exact path='/' component={Landing} />
-      </HashRouter>
+      </BrowserRouter>
     )
   }
 }
