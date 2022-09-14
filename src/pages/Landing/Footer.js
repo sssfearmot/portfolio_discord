@@ -1,5 +1,5 @@
 import React from 'react'
-import USAFlag from '../../assets/usa_flag.png'
+import KOREAFlag from '../../assets/Flag_of_South_Korea.svg'
 import TwitterIcon from '../../assets/twitter_icon.svg'
 import InstagramIcon from '../../assets/instagram_icon.svg'
 import FacebookIcon from '../../assets/facebook_icon.svg'
@@ -15,11 +15,12 @@ export default function Footer() {
           </h4>
           <a href='#' className='text-white mt-6 font-light'>
             <span>
-              <img
+              <KOREAFlag className='w-6 h-4 inline-block mr-2' />
+              {/* <img
                 src={USAFlag}
                 alt='USA language'
                 className='w-6 h-4 inline-block mr-2'
-              />
+              /> */}
             </span>
             English, USA
           </a>

@@ -1,6 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-// import { Switch } from 'react-router-dom'
 import App from './App'
 import AppProviders from './AppProviders'
 class Index extends React.Component {
