@@ -23,31 +23,46 @@ export default function Header() {
       <Content>
         <Menu>
           <li>
-            <Logo/>
+            <Logo />
           </li>
           <li>
-            <a href="#">Home</a>
+            <a href="#">다운로드</a>
           </li>
           <li>
-            <a href="#">Download</a>
+            <a href="#">Nitro</a>
           </li>
           <li>
-            <a href="#">App</a>
+            <a href="#">찾기</a>
           </li>
           <li>
-            <a href="#">Login</a>
+            <a href="#">보안</a>
           </li>
           <li>
-            <button>Get Started</button>
+            <a href="#">지원</a>
+          </li>
+          <li>
+            <a href="#">블로그</a>
+          </li>
+          <li>
+            <a href="#">채용</a>
+          </li>
+          <li>
+            <button>Login</button>
           </li>
         </Menu>
         <h1>이런 공간이 있다면 어떨까요...</h1>
         <p>
           ...학교 동아리, 게임 그룹, 세계 예술 감상 커뮤니티에 소속되어 유대감을 느낄 수 있는 공간. 소중한 단짝 친구들과 어울릴 수 있는 우리만의 공간. 더 쉽게, 매일 어울리고 이야기할 수 있는 그런 공간 말이에요.
         </p>
-        <button>
-          <img src={IconLaptop} alt="" /> Download for Mac
-        </button>
+
+        <div className='flex'>
+          <button className='bg-white text-black'>
+            <img src={IconLaptop} alt="" /> Download for Mac
+          </button>
+          <button className='ml-0 bg-da'>
+            <img src={IconLaptop} alt="" /> 웹브라우저에서 Discord 열기
+          </button>
+        </div>
       </Content>
     </Wrapper>
   );
@@ -119,7 +134,7 @@ const Content = styled.div`
     }
     @media (max-width: 800px) {
       font-size: 40px;
-      max-width: 300px;
+      // max-width: 300px;
     }
     @media (max-width: 600px) {
       padding-top: 250px;
@@ -138,11 +153,11 @@ const Content = styled.div`
     background: rgba(0, 0, 0, 0.2);
     border: 0px;
     font-size: 16px;
-    padding: 12px 30px;
+    padding: 16px 30px;
     border-radius: 14px;
     color: white;
     border: 1px solid rgba(255, 255, 255, 0.1);
-    max-width: 280px;
+    width: 300px;
     backdrop-filter: blur(20px);
     font-weight: 600;
     box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
@@ -218,7 +233,10 @@ const Menu = styled.ul`
     li:nth-child(2),
     li:nth-child(3),
     li:nth-child(4),
-    li:nth-child(5) {
+    li:nth-child(5),
+    li:nth-child(6),
+    li:nth-child(7), 
+    li:nth-child(8) {
       display: none;
     }
   }

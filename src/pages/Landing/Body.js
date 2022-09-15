@@ -23,7 +23,7 @@ export default function Footer() {
       </div>
 
       <div className='flex  justify-center items-center bg-discord-openGray'>
-        <div className='flex flex-col flex-col-reverse md:flex-row justify-center items-center sm:my-28 my-18 px-4'>
+        <div className='flex flex-col md:flex-row justify-center items-center sm:my-28 my-18 px-4'>
           <div className='w-11/12 md:w-5/12 lg:w-4/12   xl:w-3/12 2xl:w-3/12  '>
             <h1 className='text-left md:text-5xl text-xl leading-8 font-bold tracking-tight md:leading-13 md:mt-0 mt-8'>
               누구나 쉽게 어울릴 수 있는 곳

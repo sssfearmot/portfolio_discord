@@ -11,7 +11,7 @@ export default function Footer() {
       <div className='flex flex-col md:flex-row sm:justify-between sm:justify-items-center'>
         <div className='flex flex-col items-start'>
           <h4 className='text-discord-experiment500 text-4xl font-extrabold uppercase leading-none'>
-          이런 공간이 있다면 어떨까요
+            이런 공간이 있다면 어떨까요
           </h4>
           <a href='#' className='text-white mt-6 font-light'>
             <span>
@@ -22,7 +22,7 @@ export default function Footer() {
                 className='w-6 h-4 inline-block mr-2'
               /> */}
             </span>
-            English, USA
+            한국어
           </a>
           <div className='mt-4 flex flex-row items-start justify-between'>
             <a href='#' className='text-white font-light'>

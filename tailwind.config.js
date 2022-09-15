@@ -2,7 +2,7 @@ module.exports = {
   purge: [],
   target: 'relaxed',
   prefix: '',
-  important: false,
+  important: true,
   separator: ':',
   theme: {
     extend: {
@@ -70,6 +70,7 @@ module.exports = {
       '3xl': '2200px',
     },
     colors: {
+      da: '#23272a',
       transparent: 'transparent',
       current: 'currentColor',
       black: '#000',
