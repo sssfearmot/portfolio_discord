@@ -1,13 +1,5 @@
 {
-  "keywords": [
-    "react",
-    "reactjs",
-    "webpack",
-    "boilerplate",
-    "tailwind"
-  ],
-  "license": "MIT",
-  "name": "react-webpack-5-tailwind-2",
+  "name": "portfolio_discord",
   "version": "1.0.1",
   "description": "Webpack 5 boilerplate with React 17, Tailwind 2, using babel, sass, with HMR and an optimized production build",
   "dependencies": {
