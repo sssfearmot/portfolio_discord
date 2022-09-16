@@ -242,7 +242,7 @@ export default function Footer() {
             <ul>
               <li>
                 <a href='#' className='text-discord-experiment500 text-sm'>
-                  지원
+                  자원
                 </a>
               </li>
               <li className='mt-2'>
@@ -287,38 +287,37 @@ export default function Footer() {
               <li>
                 <a
                   href='#'
-                  className='text-discord-experiment500 text-sm sm:text-xs'
-                >
+                  className='text-discord-experiment500 text-sm'>
                   정책
                 </a>
               </li>
               <li className='mt-2'>
-                <a href='#' className='text-white text-sm sm:text-xs'>
+                <a href='#' className='text-white text-sm'>
                   이용 약관
                 </a>
               </li>
               <li className='mt-2'>
-                <a href='#' className='text-white text-sm sm:text-xs'>
+                <a href='#' className='text-white text-sm'>
                   개인 정보 보호 정책
                 </a>
               </li>
               <li className='mt-2'>
-                <a href='#' className='text-white text-sm sm:text-xs'>
+                <a href='#' className='text-white text-sm'>
                   지침
                 </a>
               </li>
               <li className='mt-2'>
-                <a href='#' className='text-white text-sm sm:text-xs'>
+                <a href='#' className='text-white text-sm'>
                   감사
                 </a>
               </li>
               <li className='mt-2'>
-                <a href='#' className='text-white text-sm sm:text-xs'>
+                <a href='#' className='text-white text-sm'>
                   라이선스
                 </a>
               </li>
               <li className='mt-2'>
-                <a href='#' className='text-white text-sm sm:text-xs'>
+                <a href='#' className='text-white text-sm'>
                   관리
                 </a>
               </li>

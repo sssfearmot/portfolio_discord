@@ -11,7 +11,7 @@ export default function Footer() {
       <div className='flex md:flex-row justify-center items-center sm:my-28 my-18 px-4'>
         <div className='flex flex-col md:flex-row justify-center items-center'>
           <InviteOnlyLandingImage className='w-11/12 md:w-5/12 lg:w-6/12 xl:w-6/12 2xl:w-4/12' />
-          <div className='w-11/12 md:w-5/12 lg:w-4/12  xl:w-3/12 2xl:w-3/12  md:ml-20 '>
+          <div className='w-11/12 md:w-5/12 lg:w-4/12  xl:w-2/6 2xl:w-2/6 md:ml-20 '>
             <h1 className='text-left md:text-5xl text-xl leading-8 font-bold tracking-tight md:leading-13 md:mt-0 mt-8'>
               나만을 위한 초대 전용 공간을 만들어보세요
             </h1>
@@ -24,7 +24,7 @@ export default function Footer() {
 
       <div className='flex  justify-center items-center bg-discord-openGray'>
         <div className='flex flex-col md:flex-row justify-center items-center sm:my-28 my-18 px-4'>
-          <div className='w-11/12 md:w-5/12 lg:w-4/12   xl:w-3/12 2xl:w-3/12  '>
+          <div className='w-11/12 md:w-5/12 lg:w-4/12   xl:w-2/6 2xl:w-2/6  '>
             <h1 className='text-left md:text-5xl text-xl leading-8 font-bold tracking-tight md:leading-13 md:mt-0 mt-8'>
               누구나 쉽게 어울릴 수 있는 곳
             </h1>
@@ -38,7 +38,7 @@ export default function Footer() {
 
       <div className='flex flex-col md:flex-row justify-center items-center sm:my-28 my-18 px-4'>
         <FandomLandingImage className='w-11/12 md:w-5/12 lg:w-6/12 xl:w-6/12 2xl:w-4/12' />
-        <div className='w-11/12 md:w-5/12 lg:w-4/12  xl:w-3/12 2xl:w-3/12  md:ml-20 '>
+        <div className='w-11/12 md:w-5/12 lg:w-4/12  xl:w-2/6 2xl:w-2/6  md:ml-20 '>
           <h1 className='text-left md:text-5xl text-xl leading-8 font-bold tracking-tight md:leading-13 md:mt-0 mt-8'>
             소규모 모임에서 팬덤까지
           </h1>
