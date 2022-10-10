@@ -1,5 +1,6 @@
 import React from 'react'
-import { BrowserRouter, HashRouter, Route } from 'react-router-dom'
+import { BrowserRouter as Router, HashRouter, Route } from 'react-router-dom'
+import Home from "./components/Home";
 
 import './index.css'
 import './app.styles.scss'
@@ -9,7 +10,15 @@ export default class App extends React.Component {
   render() {
     return (
       <HashRouter>
-        <Route exact path='/' component={Landing} />
+        <Router>
+          <Route exact path='/' component={Landing} />
+          <Route exact path="/channels">
+            <Home />
+          </Route>
+          <Route exact path="/channels/:id">
+            <Home />
+          </Route>
+        </Router>
       </HashRouter>
     )
   }

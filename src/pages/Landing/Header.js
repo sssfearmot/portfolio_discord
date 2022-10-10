@@ -2,6 +2,9 @@ import React from 'react'
 import './style.css';
 import Spline from "@splinetool/react-spline";
 import styled from "styled-components";
+import { useAuthState } from "react-firebase-hooks/auth";
+import { useHistory } from "react-router-dom";
+import { auth, provider } from "../../firebase";
 
 import Logo from "../../assets/discord_new.svg";
 import IconTwitter from "../../assets/icon-twitter.svg";
@@ -9,6 +12,18 @@ import IconYouTube from "../../assets/icon-youtube.svg";
 import IconLaptop from "../../assets/icon-laptop.svg";
 
 export default function Header() {
+  const [user] = useAuthState(auth);
+  const history = useHistory();
+
+  const signIn = (e) => {
+    e.preventDefault();
+
+    auth
+      .signInWithPopup(provider)
+      .then(() => history.push("/channels"))
+      .catch((error) => alert(error.message));
+  };
+
   return (
     <Wrapper>
       <Spline
@@ -47,7 +62,10 @@ export default function Header() {
             <a href="#">채용</a>
           </li>
           <li>
-            <button>Login</button>
+            <button
+              onClick={!user ? signIn : () => history.push("/channels")}>
+              {!user ? "Login" : "Open Discord"}
+            </button>
           </li>
         </Menu>
         <h1>이런 공간이 있다면 어떨까요...</h1>

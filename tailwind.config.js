@@ -1,5 +1,6 @@
 module.exports = {
-  purge: [],
+  mode: "jit",
+  purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
   target: 'relaxed',
   prefix: '',
   important: true,
@@ -7,6 +8,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        discord_blue: "#295DE7",
+        discord_blurple: "#7289da",
+        discord_purple: "#5865f2",
+        discord_green: "#3ba55c",
+
         discord: {
           yellow: '#faa61a',
           chatInputBg: '#40444b',
@@ -892,5 +898,5 @@ module.exports = {
     animation: ['responsive'],
   },
   corePlugins: {},
-  plugins: [],
+  plugins: [require("tailwind-scrollbar-hide")],
 }
