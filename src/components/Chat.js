@@ -72,7 +72,7 @@ function Chat() {
                     <div className="flex bg-[#202225] text-xs p-1 rounded-md">
                         <input
                             type="text"
-                            placeholder="Search"
+                            placeholder="검색하기"
                             className="bg-[#202225] focus:outline-none text-white pl-1 placeholder-[#72767d]"
                         />
                         <SearchIcon className="h-4 text-[#72767d] mr-1" />
@@ -106,7 +106,7 @@ function Chat() {
                         type="text"
                         disabled={!channelId}
                         placeholder={
-                            channelId ? `Message #${channelName}` : "Select a channel"
+                            channelId ? `메시지 보내기 #${channelName}` : "Select a channel"
                         }
                         className="bg-transparent focus:outline-none text-[#dcddde] w-full placeholder-[#72767d] text-sm"
                         ref={inputRef}

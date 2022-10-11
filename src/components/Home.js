@@ -14,7 +14,7 @@ function Home() {
     const [channels] = useCollection(db.collection("channels"));
 
     const handleAddChannel = () => {
-        const channelName = prompt("Enter a new channel name");
+        const channelName = prompt("채널을 만들어보세요");
 
         if (channelName) {
             db.collection("channels").add({

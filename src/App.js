@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter as Router, HashRouter, Route } from 'react-router-dom'
+import { BrowserRouter, HashRouter, Route } from 'react-router-dom'
 import Home from "./components/Home";
 
 import './index.css'
@@ -10,15 +10,13 @@ export default class App extends React.Component {
   render() {
     return (
       <HashRouter>
-        <Router>
-          <Route exact path='/' component={Landing} />
-          <Route exact path="/channels">
-            <Home />
-          </Route>
-          <Route exact path="/channels/:id">
-            <Home />
-          </Route>
-        </Router>
+        <Route exact path='/' component={Landing} />
+        <Route exact path="/channels">
+          <Home />
+        </Route>
+        <Route exact path="/channels/:id">
+          <Home />
+        </Route>
       </HashRouter>
     )
   }
