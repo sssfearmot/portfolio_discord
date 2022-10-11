@@ -60,7 +60,7 @@ function Chat() {
 
     return (
         <div className="flex flex-col h-screen">
-            <header className="flex items-center justify-between space-x-5 border-b border-gray-800 p-4 -mt-1">
+            <header className="flex items-center justify-between space-x-5 border-b-1 border-gray-800 p-4 -mt-1">
                 <div className="flex items-center space-x-1">
                     <HashtagIcon className="h-6 text-[#72767d]" />
                     <h4 className="text-white font-semibold">{channelName}</h4>
@@ -81,7 +81,7 @@ function Chat() {
                     <QuestionMarkCircleIcon className="icon" />
                 </div>
             </header>
-            <main className="flex-grow overflow-y-scroll scrollbar-hide">
+            <main className="flex-grow-default overflow-y-scroll scrollbar-hide">
                 {messages?.docs.map((doc) => {
                     const { message, timestamp, name, photoURL, email } = doc.data();
 
@@ -99,9 +99,9 @@ function Chat() {
                 })}
                 <div ref={chatRef} className="pb-16" />
             </main>
-            <div className="flex items-center p-2.5 bg-[#40444b] mx-5 mb-7 rounded-lg">
-                <PlusCircleIcon className="icon mr-4" />
-                <form className="flex-grow">
+            <div className="flex items-center p-2.5 bg-[#40444b] mx-5 mb-7 mb rounded-lg">
+                <PlusCircleIcon className="icon mr-4 w-12" />
+                <form className="flex-grow-default">
                     <input
                         type="text"
                         disabled={!channelId}
@@ -115,8 +115,8 @@ function Chat() {
                         Send
                     </button>
                 </form>
-                <GiftIcon className="icon mr-2" />
-                <EmojiHappyIcon className="icon" />
+                <GiftIcon className="icon mr-2 w-12" />
+                <EmojiHappyIcon className="icon w-12" />
             </div>
         </div>
     );
