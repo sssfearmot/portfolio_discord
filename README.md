@@ -1,23 +1,41 @@
-# Discord frontend
-Discord Clone 3D using React, Spline, reactjs, webpack, ESLint, boilerplate and tailwind.
+# ReactJS 및 Firebase로 구축한 Discord Clone
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white"/> <img src="https://img.shields.io/badge/Tailwind-6B6D4?style=flat-square&logo=Tailwind CSS&logoColor=white"/>
+<img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=Firebase&logoColor=white"/>
+<img src="https://img.shields.io/badge/Webpack-8DD6F9?style=flat-square&logo=Webpack&logoColor=white"/>
+<img src="https://img.shields.io/badge/ESLint-4B32C3?style=flat-square&logo=ESLint&logoColor=white"/>
+<img src="https://img.shields.io/badge/Babel-F9DC3E?style=flat-square&logo=Babel&logoColor=white"/>
+<img src="https://img.shields.io/badge/Sass-CC6699?style=flat-square&logo=Sass&logoColor=white"/>
 
-Webpack 5 boilerplate with React 17, Tailwind 2, using babel, sass, with HMR and an optimized production build.
 
->boilerplate : 별 수정 없이 반복적으로 사용되는 코드, 모든 코드를 작성하기 위해 필요한 부분.<br/>
- ┕ Import : 필요한 코드를 불러들이는 부분<br/>
- ┕ component : 현 페이지를 구현하는 코드<br/>
- ┕ StyleSheet : 페이지의 객체를 꾸미기 위한 style<br/>
- ┕ Export : 현 JavaScript 코드를 타 JavaScript에서 접근하기 위한 부분<br/><br/>
-webpack : 여러개 파일을 하나의 파일로 합쳐주는 모듈 번들러(Module Bundler).<br/>
- ┕ Entry : entry를 통해서 모듈을 로딩하고 하나의 파일로 묶음<br/>
- ┕ Output : entry로 찾은 모듈을 하나로 묶은 결과물을 반환할 위치<br/>
- ┕ Loader : JavaScript가 아닌 다른 자원(HTML, CSS, Image)를 빌드할 수 있도록 도와주는 속성<br/>
- ┕ Plugin : 파일을 해석하고 변환하는 과정에 관여하고, 결과물의 형태를 바꾸는 역할<br/><br/>
-HMR : 브라우저 리로드 없이 모듈을 바꿔치기 해주는 기능, webpack에서 지원.<br/>
-babelrc : JavaScript se6 문법을 es5로 변환해주는 트렌스파일러(transpiler), React를 일반 브라우저에서 실행시킬 수 있다.<br/>
-ESLint : JavaScript 문법을 검토해주는 도구.
+## 기능
+- Firebase 데이터베이스를 사용한 로그인/로그아웃
+- Firebase 데이터베이스를 사용한 채팅
+- 채팅방 개설
 
-<br/>
+반응형 웹사이트</br>
+Spline을 사용하여 3D 모델 출력
+
+## 사용된 기술
+- ReactJS
+- Tailwind
+- Firebase
+- Webpack
+- ESLint
+- Spline
+- Babel
+- Sass
+
+## 업데이트
+
+##### v1.0
+- 웹페이지 배포
+
+##### v2.0
+- Firebase 사용 채팅 구현
+- 채팅 로그아웃 구현
+
+##### v2.0
+- 채팅방 개설
 
 ## Setup Frontend
 
