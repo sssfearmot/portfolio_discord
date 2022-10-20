@@ -34,29 +34,8 @@ Spline을 사용하여 3D 모델 출력
 - Firebase 사용 채팅 구현
 - 채팅 로그아웃 구현
 
-##### v2.0
+##### v3.0
 - 채팅방 개설
-
-## Setup Frontend
-
-Install the dependencies:
-
-```bash
-yarn install
-
-or
-
-npm install
-```
-
-then blow command:
-```bash
-yarn start
-
-or
-
-npm start
-```
 
 ***
 **Demo** : <https://sssfearmot.github.io/portfolio_discord/>
